@@ -1,0 +1,35 @@
+{
+  "offset": 0,
+  "number": 2,
+  "available": 100,
+  "news": [
+    {
+      "id": 123456789,
+      "title": "EU AI Act enforcement begins",
+      "text": "The European Union has begun enforcing the AI Act, marking a significant milestone in global AI regulation. The regulation requires companies to assess risks associated with their AI systems.",
+      "summary": "The EU has started enforcing the AI Act.",
+      "url": "https://reuters.com/technology/eu-ai-act-enforcement-2026-05-10",
+      "image": "https://reuters.com/images/eu-ai.jpg",
+      "publish_date": "2026-05-10 14:32:00",
+      "author": "Jane Doe",
+      "language": "en",
+      "source_country": "us",
+      "sentiment": 0.12,
+      "categories": ["technology", "politics"]
+    },
+    {
+      "id": 987654321,
+      "title": "Companies scramble to comply with EU AI rules",
+      "text": "Major technology companies are racing to comply with the new EU AI Act requirements ahead of the deadline.",
+      "summary": null,
+      "url": "https://nytimes.com/2026/05/10/technology/eu-ai-act-compliance.html",
+      "image": null,
+      "publish_date": "2026-05-10 10:00:00",
+      "author": null,
+      "language": "en",
+      "source_country": "us",
+      "sentiment": -0.05,
+      "categories": ["technology"]
+    }
+  ]
+}
