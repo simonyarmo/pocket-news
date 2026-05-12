@@ -130,4 +130,5 @@ Each phase completes its validation gate before the next phase begins.
 - **Single LLM call for synthesis + translation**: modern multilingual models handle read-English/write-target natively; two calls would double latency.
 - **Base64 images**: parent project can render without a second HTTP call that might 404 or be hotlink-blocked.
 - **`_secrets.py` pattern**: no extra dependency, editor autocomplete works, env vars and kwargs still override.
+- **`--setup` CLI command**: `python -m pocket_news --setup` prompts for each API key interactively and writes them to `src/pocket_news/_secrets.py`. Guided alternative to editing the file manually. Resolution chain unchanged.
 - **Default model `qwen3:14b`**: best multilingual + structured output in 14B class; `/no_think` directive suppresses internal monologue for clean structured output.
