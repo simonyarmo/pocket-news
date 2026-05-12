@@ -1,0 +1,29 @@
+{
+  "pagination": {"limit": 2, "offset": 0, "count": 2, "total": 15},
+  "data": [
+    {
+      "author": "John Smith",
+      "title": "EU AI Act enforcement: first cases expected",
+      "description": "European regulators are expected to begin enforcement actions under the EU AI Act.",
+      "url": "https://bbc.co.uk/news/technology/eu-ai-enforcement-2026",
+      "source": "BBC News",
+      "image": "https://bbc.co.uk/images/eu-ai-enforcement.jpg",
+      "category": "technology",
+      "language": "en",
+      "country": "gb",
+      "published_at": "2026-05-10T15:30:00+00:00"
+    },
+    {
+      "author": null,
+      "title": "AI companies prepare for EU compliance deadline",
+      "description": "Major AI firms including Google and Microsoft are preparing for EU compliance.",
+      "url": "https://theguardian.com/technology/eu-ai-compliance-deadline",
+      "source": "The Guardian",
+      "image": null,
+      "category": "technology",
+      "language": "en",
+      "country": "gb",
+      "published_at": "2026-05-09T09:00:00+00:00"
+    }
+  ]
+}
