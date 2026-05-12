@@ -1,0 +1,35 @@
+{
+  "meta": {"found": 50, "returned": 2, "limit": 2, "page": 1},
+  "data": [
+    {
+      "uuid": "6b100cae-f689-4b5e-8a7d-1234567890ab",
+      "title": "EU AI Act: What businesses need to know",
+      "description": "A comprehensive guide to EU AI Act requirements for businesses.",
+      "keywords": "EU, AI Act, compliance",
+      "snippet": "Businesses must comply by August 2026.",
+      "url": "https://politico.com/news/eu-ai-act-business-guide",
+      "image_url": "https://politico.com/images/ai-act.jpg",
+      "language": "en",
+      "published_at": "2026-05-10T02:24:31.000000Z",
+      "source": "politico.com",
+      "categories": ["politics", "technology"],
+      "relevance_score": null,
+      "locale": "us"
+    },
+    {
+      "uuid": "abcdef12-3456-7890-abcd-ef1234567890",
+      "title": "EU regulators issue first AI Act guidance",
+      "description": null,
+      "keywords": "EU, AI, regulation",
+      "snippet": "Detailed guidance on implementing the AI Act.",
+      "url": "https://ft.com/content/eu-ai-guidance-2026",
+      "image_url": null,
+      "language": "en",
+      "published_at": "2026-05-09T18:00:00.000000Z",
+      "source": "ft.com",
+      "categories": ["technology"],
+      "relevance_score": null,
+      "locale": "gb"
+    }
+  ]
+}
