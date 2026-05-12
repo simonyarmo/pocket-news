@@ -1,10 +1,10 @@
 import pytest
 from datetime import datetime, timezone
-from pocket_news.models import Article, SourceCitation, SynthesizedArticle
 
 
 @pytest.fixture
-def sample_article() -> Article:
+def sample_article():
+    from pocket_news.models import Article
     return Article(
         fetcher="world_news",
         title="EU AI Act enforcement begins",
@@ -18,7 +18,8 @@ def sample_article() -> Article:
 
 
 @pytest.fixture
-def three_articles() -> list:
+def three_articles():
+    from pocket_news.models import Article
     return [
         Article(
             fetcher="world_news",
@@ -50,7 +51,8 @@ def three_articles() -> list:
 
 
 @pytest.fixture
-def sample_synthesized_article(three_articles) -> SynthesizedArticle:
+def sample_synthesized_article(three_articles):
+    from pocket_news.models import SourceCitation, SynthesizedArticle
     return SynthesizedArticle(
         status="ok",
         topic="EU AI Act enforcement",
