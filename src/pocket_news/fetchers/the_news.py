@@ -1,0 +1,1 @@
+"""The News API fetcher."""
