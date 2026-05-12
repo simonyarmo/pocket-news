@@ -4,7 +4,7 @@ import difflib
 from urllib.parse import urlparse, urlunparse
 from .models import Article
 
-_SIMILARITY_THRESHOLD = 0.90
+_SIMILARITY_THRESHOLD = 0.85
 
 
 def _canonical_url(url: str) -> str:

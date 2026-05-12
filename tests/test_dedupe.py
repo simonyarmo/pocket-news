@@ -12,7 +12,10 @@ def test_empty_list():
 
 
 def test_no_duplicates_unchanged():
-    articles = [_art(url="https://a.com", title="Article A"), _art(url="https://b.com", title="Article B")]
+    articles = [
+        _art(url="https://a.com", title="EU AI Act enforcement begins"),
+        _art(url="https://b.com", title="SpaceX Starship launch delayed again"),
+    ]
     assert len(ArticleDeduplicator.deduplicate(articles)) == 2
 
 
